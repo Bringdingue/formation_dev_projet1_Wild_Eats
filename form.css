@@ -1,0 +1,98 @@
+#reserveButton {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-family: monospace;
+    text-align: center;
+    background-color: rgb(80, 7, 7);
+    width: 18vw;
+    height: 4vw;
+    padding: 2vw;
+    padding-bottom: 4vw;
+    padding-right: 4vw;
+    padding-left: 4px;
+    margin-top: 10vh;
+    margin-left: 12vw;
+    border-radius: 0.8rem;
+    box-shadow: gray 8px;
+    
+}
+
+.card-button {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color:rgb(15, 15, 15);
+    z-index: 2;
+    border-radius: 10%;
+    opacity: 0;
+}
+#close {
+    font-size: 2rem;
+    color: black;
+
+}
+#headResa {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.5em;
+    padding-right: 0.5rem;
+}
+
+.resaBloc{
+    display: flex;
+    justify-content: space-between;
+    justify-items: start;
+    padding-bottom: 0.2rem;
+}
+
+
+
+
+span {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2vw;
+    padding-right: 0.8vw;
+
+}
+
+#reservationForm {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-around; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-family: monospace;
+    padding: 2vw;
+}
+
+re #resaName {
+    width: 200px;
+    height: 200px;
+    cursor: text
+}
+
+.customForm {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(235, 243, 243);
+    top : 25%;
+    right: 25%;
+    border-radius: 3%;
+    border: black solid;
+}
+
+strong {
+    color: forestgreen;
+}
+
+:placeholder-shown {
+    font-style: italic;
+    border: solid thin grey;
+    /* border-radius: 2vh; */
+}
